@@ -1907,19 +1907,6 @@ body
    background-position: center center;
    background-size: cover;
 }
-#wb_projectsText2
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   line-height: 24.5px;
-}
-#wb_projectsText2 p, #wb_projectsText2 ul
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_projectsText3
 {
    color: #FFFFFF;
