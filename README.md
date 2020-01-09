@@ -456,6 +456,6 @@
 17. Конституция создана Святым Источником, доработана Молдованом, Алексом и Временным Правительством (28-29.12.2019). 
 
 
-Официальный git конституции - https://github.com/Sepera-okeq/Sepera-okeq.github.io
+Официальный git конституции - [https://github.com/Sepera-okeq/Sepera-okeq.github.io](https://github.com/Sepera-okeq/Sepera-okeq.github.io)
 
-Сервер Discord( Эмбронская Республика ) - https://discord.gg/qq5dSru  
+Сервер Discord( Эмбронская Республика ) - [https://discord.gg/qq5dSru](https://discord.gg/qq5dSru)  
