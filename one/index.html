@@ -1,869 +1,416 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
-<title>Стартовая страница</title>
-<style type="text/css">
-div#container
-{
-   width: 800px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
-body
-{
-   background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   text-align: center;
-}
-a
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
-}
-a:active
-{
-   color: #FF0000;
-}
-a:hover
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
-}
-h4, .h4
-{
-   font-family: Arial;
-   font-size: 21px;
-   font-style: italic;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-@media only screen and (max-width: 799px)
-{
-}
-#Layer1
-{
-   background-color: #232B2B;
-   background-image: none;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text2 div
-{
-   text-align: left;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text3 div
-{
-   text-align: justify;
-}
-#wb_Shape3
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#Shape3
-{
-   width: 500px;
-   height: 2px;
-   background-color: #C0C0C0;
-   background-image: none;
-   border: 0px #000000 solid;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text6 div
-{
-   text-align: left;
-}
-#Layer2
-{
-   background-color: #DC3D24;
-   background-image: none;
-}
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text5 div
-{
-   text-align: left;
-}
-#wb_Text10 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text10 div
-{
-   text-align: left;
-}
-#Layer3
-{
-   background-color: #DC3D24;
-   background-image: none;
-}
-#Layer4
-{
-   background-color: #232B2B;
-   background-image: none;
-}
-#wb_Text11 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text11 div
-{
-   text-align: center;
-}
-#wb_Text12 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text12 div
-{
-   text-align: left;
-}
-#wb_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text7 div
-{
-   text-align: justify;
-}
-#wb_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text8 div
-{
-   text-align: left;
-}
-#Button1
-{
-   line-height: 23px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #232B2B;
-   border-radius: 4px;
-   background-color: #232B2B;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Button2
-{
-   line-height: 23px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #232B2B;
-   border-radius: 4px;
-   background-color: #232B2B;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Button3
-{
-   line-height: 23px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #232B2B;
-   border-radius: 4px;
-   background-color: #232B2B;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Button4
-{
-   line-height: 23px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #232B2B;
-   border-radius: 4px;
-   background-color: #232B2B;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Label2
-{
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color :#000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   vertical-align: top;
-}
-#InlineFrame1
-{
-   border: 1px solid #C0C0C0;
-   margin: 0;
-}
-#Button4
-{
-   position: absolute;
-   left: 579px;
-   top: 100px;
-   width: 161px;
-   height: 23px;
-   z-index: 14;
-}
-#Button3
-{
-   position: absolute;
-   left: 402px;
-   top: 100px;
-   width: 161px;
-   height: 23px;
-   z-index: 13;
-}
-#InlineFrame1
-{
-   position: absolute;
-   left: 45px;
-   top: 147px;
-   width: 217px;
-   height: 452px;
-   z-index: 19;
-}
-#wb_Image1
-{
-   position: absolute;
-   left: 286px;
-   top: 361px;
-   width: 470px;
-   height: 249px;
-   z-index: 15;
-}
-#Button2
-{
-   position: absolute;
-   left: 223px;
-   top: 100px;
-   width: 161px;
-   height: 23px;
-   z-index: 12;
-}
-#wb_Shape3
-{
-   position: absolute;
-   left: 300px;
-   top: 169px;
-   width: 500px;
-   height: 2px;
-   z-index: 7;
-}
-#Button1
-{
-   position: absolute;
-   left: 45px;
-   top: 100px;
-   width: 161px;
-   height: 23px;
-   z-index: 11;
-}
-#wb_Text5
-{
-   position: absolute;
-   left: 45px;
-   top: 361px;
-   width: 205px;
-   height: 15px;
-   z-index: 8;
-}
-#wb_Text6
-{
-   position: absolute;
-   left: 31px;
-   top: 9px;
-   width: 472px;
-   height: 56px;
-   z-index: 2;
-}
-#wb_Text7
-{
-   position: absolute;
-   left: 300px;
-   top: 397px;
-   width: 500px;
-   height: 56px;
-   text-align: justify;
-   z-index: 10;
-}
-#wb_Text12
-{
-   position: absolute;
-   left: 630px;
-   top: 57px;
-   width: 165px;
-   height: 15px;
-   z-index: 3;
-}
-#wb_Text11
-{
-   position: absolute;
-   left: 7px;
-   top: 42px;
-   width: 780px;
-   height: 12px;
-   text-align: center;
-   z-index: 4;
-}
-#wb_Text2
-{
-   position: absolute;
-   left: 45px;
-   top: 169px;
-   width: 205px;
-   height: 30px;
-   z-index: 5;
-}
-#wb_Text10
-{
-   position: absolute;
-   left: 45px;
-   top: 562px;
-   width: 205px;
-   height: 30px;
-   z-index: 9;
-}
-#wb_Text3
-{
-   position: absolute;
-   left: 300px;
-   top: 136px;
-   width: 442px;
-   height: 164px;
-   text-align: justify;
-   z-index: 6;
-}
-#Layer1
-{
-   position: absolute;
-   text-align: center;
-   left: 0px;
-   top: 0px;
-   width: 100%;
-   height: 80px;
-   z-index: 20;
-}
-#Layer2
-{
-   position: absolute;
-   text-align: center;
-   left: 0px;
-   top: 80px;
-   width: 100%;
-   height: 20px;
-   z-index: 21;
-}
-#Layer3
-{
-   position: absolute;
-   text-align: center;
-   left: 0px;
-   top: 780px;
-   width: 100%;
-   height: 20px;
-   z-index: 22;
-}
-#Layer4_Container
-{
-   width: 800px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#Layer4
-{
-   position: absolute;
-   text-align: center;
-   left: 0px;
-   top: 800px;
-   width: 100%;
-   height: 100px;
-   z-index: 23;
-}
-#Layer3_Container
-{
-   width: 800px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#Layer2_Container
-{
-   width: 800px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_Text8
-{
-   position: absolute;
-   left: 17px;
-   top: 10px;
-   width: 472px;
-   height: 61px;
-   visibility: hidden;
-   z-index: 1;
-}
-#Layer1_Container
-{
-   width: 800px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#Label2
-{
-   position: absolute;
-   left: 479px;
-   top: 290px;
-   width: 92px;
-   height: 96px;
-   line-height: 96px;
-   z-index: 17;
-}
-#Label1
-{
-   position: absolute;
-   left: 306px;
-   top: 300px;
-   width: 355px;
-   height: 85px;
-   line-height: 77px;
-   z-index: 16;
-}
-@media only screen and (max-width: 799px)
-{
-div#container
-{
-   width: 320px;
-}
-#Layer1
-{
-   left: 0px;
-   top: 0px;
-   height: 80px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #232B2B;
-   background-image: none;
-}
-#Layer1
-{
-   width: 100%;
-}
-#Layer1_Container
-{
-   width: 320px;
-}
-#wb_Text2
-{
-   left: 45px;
-   top: 169px;
-   visibility: hidden;
-   display: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   left: 13px;
-   top: 154px;
-   width: 288px;
-   height: 281px;
-   visibility: visible;
-   display: inline;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Shape3
-{
-   left: 12px;
-   top: 190px;
-   width: 292px;
-   height: 2px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#Shape3
-{
-   width: 292px;
-   height: 2px;
-}
-#BuildWith1
-{
-   left: 241px;
-   top: 10px;
-   width: 62px;
-   height: 31px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text6
-{
-   left: 2px;
-   top: 2px;
-   width: 308px;
-   height: 122px;
-   visibility: hidden;
-   display: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text6
-{
-   margin: 0;
-   padding: 0;
-}
-#Layer2
-{
-   left: 0px;
-   top: 80px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #DC3D24;
-   background-image: none;
-}
-#Layer2
-{
-   width: 100%;
-}
-#Layer2_Container
-{
-   width: 320px;
-}
-#wb_Text5
-{
-   left: 45px;
-   top: 361px;
-   visibility: hidden;
-   display: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text5
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text10
-{
-   left: 45px;
-   top: 562px;
-   visibility: hidden;
-   display: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text10
-{
-   margin: 0;
-   padding: 0;
-}
-#Layer3
-{
-   left: 0px;
-   top: 1081px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #DC3D24;
-   background-image: none;
-}
-#Layer3
-{
-   width: 100%;
-}
-#Layer3_Container
-{
-   width: 320px;
-}
-#Layer4
-{
-   left: 0px;
-   top: 1101px;
-   height: 58px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #232B2B;
-   background-image: none;
-}
-#Layer4
-{
-   width: 100%;
-}
-#Layer4_Container
-{
-   width: 320px;
-}
-#wb_Text11
-{
-   left: 7px;
-   top: 12px;
-   width: 302px;
-   height: 32px;
-   visibility: visible;
-   display: inline;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text11
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text12
-{
-   left: 193px;
-   top: 57px;
-   width: 111px;
-   height: 16px;
-   visibility: visible;
-   display: inline;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text12
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text7
-{
-   left: 309px;
-   top: 1026px;
-   width: 500px;
-   height: 126px;
-   visibility: hidden;
-   display: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text7
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text8
-{
-   left: 11px;
-   top: 9px;
-   width: 246px;
-   height: 43px;
-   visibility: visible;
-   display: inline;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text8
-{
-   margin: 0;
-   padding: 0;
-}
-}
-</style>
+<meta charset="utf-8">
+<title>Правительство ЭР</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 Trial Version - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
+<link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/darkmode.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="tab.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#welcome']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_welcome').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("a[href*='#news']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_news').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("#newsContainer").owlCarousel({autoplayTimeout:5000, margin: 0, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 1}, slideBy: 1}});
+      $("a[href*='#about']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_about').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("a[href*='#team']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_team').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("#teamContainer").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 2}, slideBy: 1}});
+      $("a[href*='#contact']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $(document).on('click','.navigationMenu-navbar-collapse.in',function(e)
+      {
+         if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+         {
+            $(this).collapse('hide');
+         }
+      });
+      $("a[href*='#contactForm']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contactForm').offset().top }, 600, 'easeInCubic');
+      });
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("#aboutTabs a").click(function()
+      {
+         $(this).tab('show');
+      });
+   });
+</script>
 </head>
 <body>
-<div id="container">
-<div id="wb_Text2">
-<div style="position:absolute;left:0px;top:0px;width:205px;height:18px;"><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;"><strong>1</strong></span></div>
-</div>
-<div id="wb_Text3">
-<span style="color:#000000;font-family:'Trebuchet MS';font-size:24px;">Добро пожаловать!<br></span><span style="color:#000000;font-family:'Trebuchet MS';font-size:13px;"><br></span><span style="color:#000000;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;">Здесь содержится вся информация от правительства и администрации ЭР.Тут можно узнать правила,расмотреть конституцию и много другое.Обратиться можно к ним по верхним кнопкам.<br><br></span><span style="color:#000000;font-family:'Trebuchet MS';font-size:13px;"><br></span></div>
-<div id="wb_Shape3">
-<div id="Shape3"></div></div>
-<div id="wb_Text5">
-<div style="position:absolute;left:0px;top:0px;width:205px;height:18px;"><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;"><strong>2</strong></span></div>
-</div>
-<div id="wb_Text10">
-<div style="position:absolute;left:0px;top:0px;width:205px;height:18px;"><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;"><strong>3</strong></span></div>
-</div>
-<div id="wb_Text7">
-<span style="color:#000000;font-family:'Trebuchet MS';font-size:24px;"><br></span></div>
-<a id="Button1" href="https://sepera-okeq.github.io/one/">Стартовая</a>
-<a id="Button2" href="https://sepera-okeq.github.io/two/">Правила</a>
-<a id="Button3" href="https://sepera-okeq.github.io/">Конституция</a>
-<a id="Button4" href="https://sepera-okeq.github.io/etc/">Примечание</a>
-<div id="wb_Image1">
-<img src="https://media.discordapp.net/attachments/594110435322626051/664235111926988820/20200108_002656.png?width=865&height=421" id="Image1" alt=""></div>
-<label class="h4" for="" id="Label1">Новость дня :</label>
-<label for="" id="Label2">Мы открылись!</label>
-<iframe name="InlineFrame1" id="InlineFrame1" src="https://discordapp.com/widget?id=582146680346902538&theme=dark" frameborder="0"></iframe>
-</div>
-<div id="Layer1">
-<div id="Layer1_Container">
-
-<div id="wb_Text8">
-<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:35px;"><strong>Website Name</strong></span></div>
-<div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:48px;"><strong>Правительство ЭР</strong></span></div>
-<div id="wb_Text12">
-<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Обновление: 08.01.2020</span></div>
-</div>
-</div>
-<div id="Layer2">
-<div id="Layer2_Container">
-</div>
-</div>
-<div id="Layer3">
-<div id="Layer3_Container">
-</div>
-</div>
-<div id="Layer4">
-<div id="Layer4_Container">
-<div id="wb_Text11">
-<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:11px;">Copyright © 2020 by &quot;Sepera_okeq&quot;&nbsp; ·&nbsp; Все права защищены </span></div>
-</div>
-</div>
+   <div id="wb_navigation">
+      <div id="navigation">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_navigationHeading">
+                  <h1 id="navigationHeading">Правительство ЭР</h1>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_navigationMenu">
+                  <div id="navigationMenu" class="navigationMenu" style="width:100%;height:auto !important;">
+                     <div class="container">
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigationMenu-navbar-collapse">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                           </button>
+                        </div>
+                        <div class="navigationMenu-navbar-collapse collapse">
+                           <ul class="nav navbar-nav">
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/one/">Домашняя</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/news/">Новости</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/two/">Правила</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/">Конституция</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/mincter/">Министерства</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/etc/">Дополнительное</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_welcome">
+      <div id="welcome-overlay"></div>
+      <div id="welcome">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_welcomeHeading">
+                  <h1 id="welcomeHeading">Главное управление Эмбронской республики</h1>
+               </div>
+               <div id="wb_welcomeJavaScript">
+                  <div id="typewriter-deluxe">
+                     <span id="typewriter-text"></span>
+                  </div>
+                  <script>                  
+                  var data = "The government of the Embronian Republic ";
+                  var lines = data.split('^');
+                  var reverse = false;
+                  var index = 0;
+                  var text = '';
+                  var typeWriterElement = document.getElementById("typewriter-text");
+                  function typeWriterDeluxe() 
+                  {
+                     var i = index % lines.length;
+                     var line = lines[i];
+                     if (reverse) 
+                     {
+                        text = line.substring(0, text.length - 1);
+                     } 
+                     else 
+                     {
+                        text = line.substring(0, text.length + 1);
+                     }
+                     typeWriterElement.innerHTML = text;
+                     var timeout = 250 - Math.random() * (250/2);
+                     if (reverse) 
+                     { 
+                        timeout /= 2; 
+                     }
+                     if (!reverse && text === line) 
+                     {
+                        timeout = 5000;
+                        reverse = true;
+                     } 
+                     else 
+                     if (reverse && text === '') 
+                     {
+                        reverse = false;
+                        index++;
+                        timeout = 500;
+                     }
+                     setTimeout(typeWriterDeluxe, timeout);
+                  }
+                  typeWriterDeluxe();
+                  </script>
+               </div>
+               <a id="welcomeButton" href="#news">Войти в систему</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_news">
+      <div id="news">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_newsHeading">
+                  <h2 id="newsHeading">Текущие новости</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_newsContainer">
+      <div id="newsContainer" class="owl-carousel owl-theme">
+         <div id="wb_newsCard1">
+            <div id="newsCard1-card-body">
+               <div id="newsCard1-card-item0">"Произошел пиздец невиданных маштабов."</div>
+               <div id="newsCard1-card-item1">MAI 30, 2019</div>
+            </div>
+         </div>
+         <div id="wb_newsCard2">
+            <div id="newsCard2-card-body">
+               <div id="newsCard2-card-item0">"Свержение парламента,суда,и многое что... Информация доступна в Discord канале."</div>
+               <div id="newsCard2-card-item1">January 09, 2020</div>
+            </div>
+         </div>
+         <div id="wb_newsCard3">
+            <div id="newsCard3-card-body">
+               <div id="newsCard3-card-item0">"Cайт правительства ЭР обновлен до версии 1.5"</div>
+               <div id="newsCard3-card-item1">January 09,2020</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_about">
+      <div id="about">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_aboutImage">
+                     <img src="images/beijing-square.png" id="aboutImage" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_aboutText1">
+                     <p style="font-size:20px;line-height:22.5px;color:#28A7E9;"><span style="font-size:32px;line-height:36px;color:#28A7E9;">Что такое ЭР?</span></p>
+                     <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Эмбронская Республика - она же ЭР:</span></p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;"> Роле-Плей сервер в Дискорде, описывающий политическую и экономическую жизнь гос-ва с таким же названием; принадлежащит ютуб-каналу Эмбро.</span></p>
+                     <p style="font-size:13px;line-height:16px;line-height:20.8px;">&nbsp;</p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Первый сервер был открыт для публики 5 мая, а второй (нынешний) вследствии разрушения первого одним из администраторов - 28 мая. В настоящий момент, страна находится в состоянии 9-ой республики. </span></p>
+                  </div>
+                  <a id="aboutButton" href="">Узнать больше!</a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="aboutTabs">
+                     <ul class="nav-tabs" role="tablist">
+                        <li class="active" role="presentation"><a href="#abouttabs-page-0" role="tab" data-toggle="tab" aria-controls="abouttabs-page-0"><span>РП</span></a></li>
+                        <li role="presentation"><a href="#abouttabs-page-1" role="tab" data-toggle="tab" aria-controls="abouttabs-page-1"><span>Другое</span></a></li>
+                     </ul>
+                     <div role="tabpanel" class="tab-pane" id="abouttabs-page-0">
+                        <div id="wb_aboutTabsText1">
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">РП или Role Play (RP, РП) - это игра по ролям, где каждый должен выполнять свою роль.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Эмбронская республика имеет огромный опыт в РП.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Реализуются многие проекты и идеи.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Большее об этом можете узнать в </span><span style="color:#FFFFFF;">Discord </span><span style="color:#FFFFFF;">канале.</span></p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#FFFFFF;">#RolePlayER</span><span style="color:#FFFFFF;">2020</span></p>
+                        </div>
+                     </div>
+                     <div role="tabpanel" class="tab-pane active" id="abouttabs-page-1">
+                        <div id="wb_aboutTabsText2">
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">Скоро будет добавлено</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; #ETC_ER2020</span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_team">
+      <div id="team">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_teamHeading1">
+                  <h2 id="teamHeading1">Главные разработчики и управленцы*</h2>
+               </div>
+               <div id="wb_teamHeading2">
+                  <h3 id="teamHeading2">*Список может быть не обновляться</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_teamContainer">
+      <div id="teamContainer" class="owl-carousel owl-theme">
+         <div id="wb_teamCard1">
+            <div id="teamCard1-card-body">
+               <img id="teamCard1-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard1-card-item1">Nezzer</div>
+               <div id="teamCard1-card-item2">Администрация ЭР</div>
+               <div id="teamCard1-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard2">
+            <div id="teamCard2-card-body">
+               <img id="teamCard2-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard2-card-item1">Амун</div>
+               <div id="teamCard2-card-item2">Ст.Куратор</div>
+               <div id="teamCard2-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard3">
+            <div id="teamCard3-card-body">
+               <img id="teamCard3-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard3-card-item1">Sepera_okeq</div>
+               <div id="teamCard3-card-item2">Главный разработчик сайта,первый управленец ЭР</div>
+               <div id="teamCard3-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard4">
+            <div id="teamCard4-card-body">
+               <img id="teamCard4-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard4-card-item1">Lavovi</div>
+               <div id="teamCard4-card-item2">Бывший гл.куратор</div>
+               <div id="teamCard4-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard5">
+            <div id="teamCard5-card-body">
+               <img id="teamCard5-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard5-card-item1">Дядя Витя</div>
+               <div id="teamCard5-card-item2">Бывший гл.куратор</div>
+               <div id="teamCard5-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard6">
+            <div id="teamCard6-card-body">
+               <img id="teamCard6-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard6-card-item1">Какой то левый пидор</div>
+               <div id="teamCard6-card-item2">а хер знаю</div>
+               <div id="teamCard6-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contact">
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactHeadingText">
+                  <p style="font-size:32px;line-height:36px;color:#FFFFFF;"><span style="color:#FFFFFF;">КОНТАКТЫ</span><span style="color:#FFFFFF;">&nbsp;</span><span style="font-weight:bold;color:#28A7E9;">INFORMATION</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contactForm">
+      <div id="contactForm">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactText">
+                  <p style="font-size:15px;line-height:16.5px;color:#FFFFFF;line-height:22.4px;"><span style="color:#FFFFFF;">Вы всегда можете обратиться к Администрации и Правительству Эмбронской республики по этим контактам:</span></p>
+                  <p style="font-size:15px;line-height:16.5px;line-height:22.4px;">&nbsp;</p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Address:</span><span style="color:#FFFFFF;">&nbsp; Antarctica, the city of </span><span style="color:#FFFFFF;">&nbsp;</span><span style="color:#FFFFFF;">Embro-City, The Main Department of Affairs of the ER Administration</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Phone:</span><span style="color:#FFFFFF;">&nbsp; 8-800-555-35-35</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Email:</span><span style="color:#FFFFFF;">&nbsp; nezzerpidoras@gmail.com</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Discord:</span><span style="color:#FFFFFF;">&nbsp; https://discord.gg/XFDxbhU</span></p>
+               </div>
+            </div>
+            <div class="col-2">
+               <iframe name="InlineFrame1" id="InlineFrame1" src="https://discordapp.com/widget?id=582146680346902538&theme=dark"></iframe>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="StickyLayer" data-250-start="opacity:1;" data-start="opacity:0;">
+      <div id="wb_up-arrow">
+         <a href="#welcome"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+   </div>
+   <div id="wb_footer">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_footerText">
+                  <p style="font-size:12px;line-height:13.5px;color:#FFFFFF;"><span style="background-color:#FFFFFF;color:#FFFFFF;">C</span><span style="background-color:#FFFFFF;color:#FFFFFF;">opyright </span><span style="background-color:#FFFFFF;color:#FFFFFF;">©</span><span style="background-color:#FFFFFF;color:#FFFFFF;"> 20</span><span style="background-color:#FFFFFF;color:#FFFFFF;">20</span><span style="background-color:#FFFFFF;color:#FFFFFF;">&nbsp;</span><span style="background-color:#FFFFFF;color:#FFFFFF;">Sepera_okeq</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb15.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:2950px;margin:0;border-width:0;z-index:250"></a>
 </body>
 </html>
