@@ -1767,7 +1767,7 @@ body
    padding: 0;
    margin: 0;
    position: absolute;
-   margin-left: -84px;
+   margin-left: -36px;
    left: 50%;
    vertical-align: middle;
    z-index: 999;
@@ -1776,7 +1776,7 @@ body
 {
    display: block;
    float: left;
-   padding: 6px 6px 6px 6px;
+   padding: 3px 3px 3px 3px;
    width: 30px;
    height: 30px;
    cursor: pointer;
@@ -1871,65 +1871,12 @@ body
 #wb_Carousel1 .pagination img
 {
    border-style: none;
-   padding: 6px 6px 6px 6px;
+   padding: 3px 3px 3px 3px;
 }
 #Carousel1 .frame-1
 {
-   background-color: #D4EDDA;
-   background-image: none;
-}
-#Carousel1 .frame-2
-{
    background-color: #D1ECF1;
    background-image: none;
-}
-#Carousel1 .frame-3
-{
-   background-color: #FFF3CD;
-   background-image: none;
-}
-#Carousel1 .frame-4
-{
-   background-color: #F8D7DA;
-   background-image: none;
-}
-#wb_Heading3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#Heading3
-{
-   color: #721C24;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Heading4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#Heading4
-{
-   color: #721C24;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   margin: 0;
-   text-align: center;
 }
 #wb_Heading5
 {
@@ -1944,25 +1891,6 @@ body
 #Heading5
 {
    color: #165C68;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Heading6
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#Heading6
-{
-   color: #427B4F;
    font-family: Arial;
    font-weight: bold;
    font-size: 19px;
@@ -2580,13 +2508,13 @@ body
    display: inline-block;
    width: 415px;
    height: 32px;
-   z-index: 45;
+   z-index: 41;
    vertical-align: top;
 }
 #wb_Accordion2
 {
    display: inline-block;
-   z-index: 20;
+   z-index: 18;
 }
 #ListView1
 {
@@ -2598,12 +2526,12 @@ body
    display: block;
    width: 88px;
    height: 25px;
-   z-index: 44;
+   z-index: 40;
 }
 #wb_CssMenu3
 {
    display: inline-block;
-   z-index: 38;
+   z-index: 34;
 }
 #wb_Accordion3
 {
@@ -2623,13 +2551,7 @@ body
 #wb_CssMenu4
 {
    display: inline-block;
-   z-index: 40;
-}
-#wb_Heading6
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 16;
+   z-index: 36;
 }
 #wb_Carousel1
 {
@@ -2637,13 +2559,7 @@ body
 #wb_Accordion4
 {
    display: inline-block;
-   z-index: 21;
-}
-#wb_Heading4
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 18;
+   z-index: 19;
 }
 #Progressbar4
 {
@@ -2678,12 +2594,6 @@ body
    display: inline-block;
    width: 100%;
    z-index: 17;
-}
-#wb_Heading3
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 19;
 }
 #Blog2
 {
@@ -3153,14 +3063,6 @@ body
    -webkit-align-self: auto;
    align-self: auto;
 }
-#Carousel1_back
-{
-   top: -13%;
-}
-#Carousel1_next
-{
-   top: 43%;
-}
 #wb_Carousel1
 {
    margin: 20px 20px 20px 20px;
@@ -3170,66 +3072,6 @@ body
 {
    padding: 0;
 }
-#wb_Heading3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   color: #721C24;
-   font-size: 19px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_Heading3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   text-align: center;
-}
-#Heading3
-{
-   color: #721C24;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-}
-#wb_Heading4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   color: #721C24;
-   font-size: 19px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_Heading4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   text-align: center;
-}
-#Heading4
-{
-   color: #721C24;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-}
 #wb_Heading5
 {
    width: 100%;
@@ -3251,41 +3093,11 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   text-align: center;
+   text-align: left;
 }
 #Heading5
 {
    color: #165C68;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-}
-#wb_Heading6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   color: #427B4F;
-   font-size: 19px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_Heading6
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   text-align: center;
-}
-#Heading6
-{
-   color: #427B4F;
    font-family: Arial;
    font-weight: bold;
    font-size: 19px;
