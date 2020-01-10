@@ -1,48 +1,4 @@
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'loginform')
-{
-   $success_page = '';
-   $error_page = basename(__FILE__);
-   $database = './usersdb.php';
-   $crypt_pass = md5($_POST['password']);
-   $found = false;
-   $fullname = '';
-   $session_timeout = 600;
-   if(filesize($database) > 0)
-   {
-      $items = file($database, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-      foreach($items as $line)
-      {
-         list($username, $password, $email, $name, $active) = explode('|', trim($line));
-         if ($username == $_POST['username'] && $active != "0" && $password == $crypt_pass)
-         {
-            $found = true;
-            $fullname = $name;
-         }
-      }
-   }
-   if($found == false)
-   {
-      header('Location: '.$error_page);
-      exit;
-   }
-   else
-   {
-      if (session_id() == "")
-      {
-         session_start();
-      }
-      $_SESSION['username'] = $_POST['username'];
-      $_SESSION['fullname'] = $fullname;
-      $_SESSION['expires_by'] = time() + $session_timeout;
-      $_SESSION['expires_timeout'] = $session_timeout;
-      header('Location: '.$success_page);
-      exit;
-   }
-}
-$username = isset($_COOKIE['username']) ? $_COOKIE['username'] : '';
-$password = isset($_COOKIE['password']) ? $_COOKIE['password'] : '';
-?>
+
 <!doctype html>
 <html>
 <head>
@@ -339,6 +295,5 @@ $password = isset($_COOKIE['password']) ? $_COOKIE['password'] : '';
          <span style="color:#4F4F4F;">Copyright © Sepera_okeq 2020</span>
       </div>
    </div>
-   <a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb15.png" alt="WYSIWYG Web Builder" style="position:absolute;left:489px;top:1489px;margin:0;border-width:0;z-index:250"></a>
-</body>
+   </body>
 </html>
