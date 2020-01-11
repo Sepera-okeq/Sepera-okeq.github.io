@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Start META -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Регистрация пользователей PHP MySQL, Авторизация пользователей PHP MySQL" /> 
+		<meta name="description" content="Регистрация пользователей PHP MySQL с активацией письмом" />
+		<!-- TITLE -->
+		<title>Регистрация пользователей PHP MySQL с активацией письмом</title>
+       
+       	<!-- Start Sheets CSS -->
+		<link href="./css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="menu">
+				<div class="menu">
+					<ul>
+						<li><a href="<?php echo BEZ_HOST; ?>less/reg/?mode=auth">Войти</a></li>
+						<li><a href="<?php echo BEZ_HOST; ?>less/reg/?mode=reg">Регистрация</a></li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="content">
+				<?php echo $content; ?>
+			</div>
+		</div>
+	</body>
+</html>
