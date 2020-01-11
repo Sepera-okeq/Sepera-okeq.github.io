@@ -9,7 +9,7 @@
  if(!defined('BEZ_KEY'))
  {
      header("HTTP/1.1 404 Not Found");
-     exit(file_get_contents('../../404.html'));
+     exit(file_get_contents('./404.html'));
  }
  
  //Выводим сообщение об удачной регистрации
@@ -18,7 +18,7 @@
  
  //Выводим сообщение об удачной регистрации
  if(isset($_GET['active']) and $_GET['active'] == 'ok')
-	echo '<b>Ваш аккаунт на http://bezramok-tlt.ru успешно активирован!</b>';
+	echo '<b>Ваш аккаунт на bla bla успешно активирован!</b>';
 	
  //Производим активацию аккаунта
  if(isset($_GET['key']))
@@ -48,8 +48,8 @@
 		$res = mysqlQuery($sql);
 		
 		//Отправляем письмо для активации
-		$title = 'Ваш аккаунт на http://bezramok-tlt.ru успешно активирован';
-		$message = 'Поздравляю Вас, Ваш аккаунт на http://bezramok-tlt.ru успешно активирован';
+		$title = 'Ваш аккаунт на bla bla успешно активирован';
+		$message = 'Поздравляю Вас, Ваш аккаунт на bla bla успешно активирован';
 			
 		sendMessageMail($email, BEZ_MAIL_AUTOR, $title, $message);
 			
@@ -128,7 +128,7 @@
 				
 				//Отправляем письмо для активации
 				$url = BEZ_HOST .'?mode=reg&key='. md5($salt);
-				$title = 'Регистрация на http://bezramok-tlt.ru';
+				$title = 'Регистрация на bla bla';
 				$message = 'Для активации Вашего акаунта пройдите по ссылке 
 				<a href="'. $url .'">'. $url .'</a>';
 				
