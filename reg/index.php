@@ -54,5 +54,5 @@
 	ob_end_clean();
 
 	//Подключаем наш шаблон
-	include './html/index.html';
+	include './index.html';
 ?>			
