@@ -27,7 +27,7 @@
 	include './config.php';
 	 
 	//Подключаем скрипт с функциями
-	include './func/funct.php';
+	include './funct.php';
 
 	//подключаем MySQL
 	include './bd/bd.php';
@@ -36,15 +36,15 @@
 	{
 		//Подключаем обработчик с формой регистрации
 		case 'reg':
-			include './scripts/reg/reg.php';
-			include './scripts/reg/reg_form.html';
+			include './reg.php';
+			include './reg_form.html';
 		break;
 		
 		//Подключаем обработчик с формой авторизации
 		case 'auth':
-			include './scripts/auth/auth.php';
-			include './scripts/auth/auth_form.html';
-			include './scripts/auth/show.php';
+			include './auth.php';
+			include './auth_form.html';
+			include './show.php';
 		break;
     
 	}
