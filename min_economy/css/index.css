@@ -922,6 +922,154 @@ body
 {
    color: #F5F5F5;
 }
+#Label1
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#3E78B3;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 0px;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar1
+{
+   margin: 0px 0px 10px 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   position: relative;
+}
+#Progressbar1, #Progressbar1 .ui-corner-right
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#Progressbar1, #Progressbar1 .ui-corner-left
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#Progressbar1,ui-widget-content
+{
+   border-color: #D3D3D3;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Progressbar1 .ui-widget-header
+{
+   border-color: #3E78B3;
+   background-color: #3E78B3;
+   background-image: none;
+}
+#Progressbar1-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label2
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#3E78B3;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 0px;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar2
+{
+   margin: 0px 0px 10px 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   position: relative;
+}
+#Progressbar2, #Progressbar2 .ui-corner-right
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#Progressbar2, #Progressbar2 .ui-corner-left
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#Progressbar2,ui-widget-content
+{
+   border-color: #D3D3D3;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Progressbar2 .ui-widget-header
+{
+   border-color: #3E78B3;
+   background-color: #3E78B3;
+   background-image: none;
+}
+#Progressbar2-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
 #wb_CssMenu1
 {
    position: absolute;
@@ -934,7 +1082,7 @@ body
 #wb_Card1
 {
    display: flex;
-   z-index: 15;
+   z-index: 19;
 }
 #wb_Image1
 {
@@ -950,12 +1098,12 @@ body
    display: block;
    width: 169px;
    height: 35px;
-   z-index: 22;
+   z-index: 26;
 }
 #wb_Card3
 {
    display: flex;
-   z-index: 17;
+   z-index: 21;
 }
 #PanelLayer
 {
@@ -970,7 +1118,7 @@ body
 #wb_Card2
 {
    display: flex;
-   z-index: 16;
+   z-index: 20;
 }
 #progressbar_html
 {
@@ -991,7 +1139,19 @@ body
 #wb_Heading4
 {
    display: inline-block;
-   z-index: 18;
+   z-index: 22;
+}
+#Progressbar2
+{
+   display: inline-block;
+   height: 20px;
+   position: relative;
+}
+#Progressbar1
+{
+   display: inline-block;
+   height: 20px;
+   position: relative;
 }
 #progressbar_uidesign
 {
@@ -1002,7 +1162,7 @@ body
 #wb_Heading2
 {
    display: inline-block;
-   z-index: 14;
+   z-index: 18;
 }
 #Label6
 {
@@ -1058,6 +1218,22 @@ body
    text-align: center;
    z-index: 7;
 }
+#Label2
+{
+   display: block;
+   height: 28px;
+   height: 28px;
+   line-height: 20px;
+   z-index: 16;
+}
+#Label1
+{
+   display: block;
+   height: 28px;
+   height: 28px;
+   line-height: 20px;
+   z-index: 14;
+}
 #wb_Copyrights
 {
    position: absolute;
@@ -1080,6 +1256,8 @@ body
    visibility: visible;
    display: flex;
    font-weight: normal;
+   background-color: #3E78B3;
+   background-image: none;
 }
 #FlexContainer1
 {

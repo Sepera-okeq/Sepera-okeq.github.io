@@ -43,6 +43,22 @@
             $("#progressbar_html-label").text($(this).progressbar('value') + '%');
          }
       });
+      $("#Progressbar1").progressbar(
+      {
+         value: 43,
+         change: function() 
+         {
+            $("#Progressbar1-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar2").progressbar(
+      {
+         value: 1313,
+         change: function() 
+         {
+            $("#Progressbar2-label").text($(this).progressbar('value') + '%');
+         }
+      });
    });
    
    $(document).ready(function()
