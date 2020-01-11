@@ -97,15 +97,14 @@ h6, .h6
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-.CustomStyle
+.carousel-caption
 {
-   font-family: "Courier New";
-   font-weight: bold;
-   font-size: 16px;
+   text-align: center;
    text-decoration: none;
-   color: #2E74B5;
    background-color: transparent;
-}
-@media only screen and (max-width: 1065px)
-{
+   padding: 20px 20px 20px 20px;
+   position: absolute;
+   bottom: 40px;
+   left: 15%;
+   right: 15%;
 }
