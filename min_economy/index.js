@@ -43,6 +43,14 @@
             $("#progressbar_html-label").text($(this).progressbar('value') + '%');
          }
       });
+      $("#progressbar_suka").progressbar(
+      {
+         value: 10,
+         change: function() 
+         {
+            $("#progressbar_suka-label").text($(this).progressbar('value') + '%');
+         }
+      });
    });
    
    $(document).ready(function()
