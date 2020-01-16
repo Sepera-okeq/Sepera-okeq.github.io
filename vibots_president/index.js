@@ -20,7 +20,7 @@ var chart = am4core.createFromConfig({
   {
     country: "ОУН",
     litres: 16
-  },
+  }
   /*{
     country: "Austria",
     litres: 128.3
