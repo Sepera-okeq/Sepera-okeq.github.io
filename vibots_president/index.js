@@ -2,39 +2,40 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    country: "НПР",
+    party: "НПР",
     litres: 43
   },
   {
-    country: "Брак",
+    party: "Брак",
     litres: 9
   },
   {
-    country: "АПЭ",
+    party: "АПЭ",
     litres: 15
   },
   {
-    country: "ОКП",
+    party: "ОКП",
     litres: 16
   },
   {
-    country: "ОУН",
+    party: "ОУН",
     litres: 16
+  },
+  {
+    party: "Неззер Монархист",
+    litres: 502
   }
-  /*{
-    country: "Austria",
-    litres: 128.3
-  },
+  /*
   {
-    country: "UK",
+    party: "UK",
     litres: 99
   },
   {
-    country: "Belgium",
+    party: "Belgium",
     litres: 60
   },
   {
-    country: "The Netherlands",
+    party: "The Netherlands",
     litres: 50
   
   }*/ ],
@@ -44,7 +45,7 @@ var chart = am4core.createFromConfig({
     "type": "PieSeries3D",
     "dataFields": {
       "value": "litres",
-      "category": "country"
+      "category": "party"
     }
   }]
 }, "chartdiv", "PieChart3D");
