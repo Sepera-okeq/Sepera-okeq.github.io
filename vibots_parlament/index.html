@@ -1,77 +1,15 @@
-<!-- Styles -->
-<style>
-#chartdiv {
-  width: 100%;
-  height: 500px;
-}
-
-</style>
-
-<!-- Resources -->
-<script src="https://www.amcharts.com/lib/4/core.js"></script>
-<script src="https://www.amcharts.com/lib/4/charts.js"></script>
-<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-
-<!-- Chart code -->
-<script>
-am4core.ready(function() {
-
-// Themes begin
-am4core.useTheme(am4themes_animated);
-// Themes end
-
-var chart = am4core.create("chartdiv", am4charts.PieChart3D);
-chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
-
-chart.legend = new am4charts.Legend();
-
-chart.data = [
-  {
-    country: "НПР",
-    litres: 43
-  },
-  {
-    country: "Брак",
-    litres: 9
-  },
-  {
-    country: "АПЭ",
-    litres: 15
-  },
-  {
-    country: "ОКП",
-    litres: 16
-  },
-  {
-    country: "ОУН",
-    litres: 16
-  },
-  /*{
-    country: "Austria",
-    litres: 128.3
-  },
-  {
-    country: "UK",
-    litres: 99
-  },
-  {
-    country: "Belgium",
-    litres: 60
-  },
-  {
-    country: "The Netherlands",
-    litres: 50
-  }*/
-];
-
-chart.innerRadius = 100;
-
-var series = chart.series.push(new am4charts.PieSeries3D());
-series.dataFields.value = "litres";
-series.dataFields.category = "country";
-
-}); // end am4core.ready()
-</script>
-
-<!-- HTML -->
-<div id="chartdiv"></div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Выборы в парламент ЭР</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="chartdiv"></div>
+    <script src="core.js"></script>
+    <script src="charts.js"></script>
+    <script src="animated.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
