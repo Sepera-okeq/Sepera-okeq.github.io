@@ -27,26 +27,26 @@ chart.legend = new am4charts.Legend();
 
 chart.data = [
   {
-    country: "Lithuania",
-    litres: 501.9
+    country: "НПР",
+    litres: 43
   },
   {
-    country: "Czech Republic",
-    litres: 301.9
+    country: "Брак",
+    litres: 9
   },
   {
-    country: "Ireland",
-    litres: 201.1
+    country: "АПЭ",
+    litres: 15
   },
   {
-    country: "Germany",
-    litres: 165.8
+    country: "ОКП",
+    litres: 16
   },
   {
-    country: "Australia",
-    litres: 139.9
+    country: "ОУН",
+    litres: 16
   },
-  {
+  /*{
     country: "Austria",
     litres: 128.3
   },
@@ -61,10 +61,10 @@ chart.data = [
   {
     country: "The Netherlands",
     litres: 50
-  }
+  }*/
 ];
 
-chart.innerRadius = 100;
+chart.innerRadius = 13;
 
 var series = chart.series.push(new am4charts.PieSeries3D());
 series.dataFields.value = "litres";
