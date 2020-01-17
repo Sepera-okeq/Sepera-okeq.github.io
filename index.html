@@ -3,25 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>Правительство ЭР</title>
-<meta name="description" content="Эмбронская республика - сервер ютубера Embro. Cайт Правительства ЭР." />
-<meta name="yandex-verification" content="814a4928a8ffc921" />
-<meta name="yandex-verification" content="814a4928a8ffc921" />
-<meta name="yandex-verification" content="1fed0ecd023d36cb" />
+<meta name="description" content="Эмбронская республика - сервер ютубера Embro. Cайт Правительства ЭР. Правила сервевера ЭР" />
 <meta name="yandex-verification" content="814a4928a8ffc921" />
 <link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
 <link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
-<link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/darkmode.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
-<script src="owl.carousel.min.js"></script>
 <script src="transition.min.js"></script>
 <script src="collapse.min.js"></script>
 <script src="dropdown.min.js"></script>
 <script src="skrollr.min.js"></script>
-<script src="tab.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -35,18 +29,11 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_news').offset().top-78 }, 600, 'easeOutQuart');
       });
-      $("#newsContainer").owlCarousel({autoplayTimeout:5000, margin: 0, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 1}, slideBy: 1}});
       $("a[href*='#about']").click(function(event)
       {
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_about').offset().top-78 }, 600, 'easeOutQuart');
       });
-      $("a[href*='#team']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_team').offset().top-78 }, 600, 'easeOutQuart');
-      });
-      $("#teamContainer").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 2}, slideBy: 1}});
       $("a[href*='#contact']").click(function(event)
       {
          event.preventDefault();
@@ -69,10 +56,6 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $("#aboutTabs a").click(function()
-      {
-         $(this).tab('show');
-      });
    });
 </script>
 </head>
@@ -189,30 +172,8 @@
          <div class="row">
             <div class="col-1">
                <div id="wb_newsHeading">
-                  <h2 id="newsHeading">Текущие новости</h2>
+                  <h2 id="newsHeading">Правила</h2>
                </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_newsContainer">
-      <div id="newsContainer" class="owl-carousel owl-theme">
-         <div id="wb_newsCard1">
-            <div id="newsCard1-card-body">
-               <div id="newsCard1-card-item0">"Выборы Президента на носу. Кто победит? Сторонники Парламента? Или же сторонники Президента??"</div>
-               <div id="newsCard1-card-item1">January 11, 2020</div>
-            </div>
-         </div>
-         <div id="wb_newsCard2">
-            <div id="newsCard2-card-body">
-               <div id="newsCard2-card-item0">"Свержение парламента,суда,и многое что... Информация доступна в Discord канале."</div>
-               <div id="newsCard2-card-item1">January 09, 2020</div>
-            </div>
-         </div>
-         <div id="wb_newsCard3">
-            <div id="newsCard3-card-body">
-               <div id="newsCard3-card-item0">"Cайт правительства ЭР обновлен до версии 2.1"</div>
-               <div id="newsCard3-card-item1">January 11,2020</div>
             </div>
          </div>
       </div>
@@ -222,149 +183,102 @@
          <div class="row">
             <div class="col-1">
                <div class="col-1-padding">
-                  <div id="wb_aboutImage">
-                     <img src="images/beijing-square.png" id="aboutImage" alt="">
+                  <div id="Article2">
+                     <div class="blogitem">
+                        <span class="blogsubject">Правила Эмбронской Республики:</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, January 09, 2020<br></div>
+                        <span style="color:#C0C0C0;">Правила Эмбронской Республики:<br>
+                           <br>
+Находясь на сервере вы обязуетесь выполнять его правила<br>
+                           <br>
+Правила для кураторов:<br>
+1.1) Куратору запрещено снимать роли и выдавать варны просто так<br>
+1.2) Обычные правила сервера относятся к кураторам тоже<br>
+1.3) Запрещено мутить/перемещать в голосовых чатах участников без причины, если и мутить - снять мут после того, как он перестал быть необходимым.<br>
+1.4) Удалять закрепленные сообщения/обычные сообщения если они не нарушают правила сервера<br>
+1.5) Запрещено закреплять бесполезные сообщения<br>
+1.6) Запрещено отказывать в работе без уважительной причины<br>
+1.7) Запрещено участвовать в РП-процессе<br>
+Например: участвовать в делах партии<br>
+1.8) Запрещено банить участников без разрешения гл.куратора<br>
+Основные правила:<br>
+1.1) Запрещено тяжело оскорблять кого-либо<br>
+Тяжелые оскорбление - оскорбление с присутствием мата<br>
+Например: Высказывания типа &quot;Ты лох, ты шлюха&quot; - не считается оскорблением<br>
+Высказывания типа &quot;Ты долбаеб, ты еблан&quot; - считается оскорблением<br>
+1.2) Запрещены картинки или музыка с присутсвием эротики. (исключение - #nsfw)<br>
+1.3) Устраивать и провоцировать срач на религиозную/этническую/идеологическую тему.<br>
+Например: внезапно крикнуть &quot;Слава Украине!&quot; без приписки (шутка,рофл) - считается нарушением, ибо может провоцировать срач.<br>
+Дискуссии должны проводится в одноименном канале.<br>
+1.4) Запрещена реклама серверов на самом сервере или в ЛС<br>
+1.5) Запрещено копировать чужие аватарки и никнеймы без согласия человека, который имеет ту же аватарку и никнейм.<br>
+1.6) Запрещен оффтоп - сообщения не по теме<br>
+Например: в чате в котором выдают премии начнется дискуссия о политике<br>
+1.7) запрещен флуд <br>
+Флуд - повторие двух огромных сообщений или очередь маленьких, которые засоряют общий чат для общения, флуд разрешен в чате #флудилка<br>
+1.8) Масспинг роли с более чем 5 человек, без прав на это. Также запрещается пинговать людей несколько раз подряд с целью &quot;побесить&quot;<br>
+1.9) Любая деятельность, нацеленная на подрыв работы и репутации сервера Discord, канала, группы.<br>
+1.10) Если вам выдали роль &quot;Muted&quot; или &quot;Посажен в ГУЛАГ&quot; и вы будете сидеть с дополнительного аккаунта - срок будет увеличен в двое.<br>
+Тоже самое касается бана<br>
+1.11) Запрещено скипать чужую музыку, которую поставили в голосвом канале &quot;Музыка&quot;, без разрешения админов или самого человека, который поставил.<br>
+1.12) Запрещено использовать ботов в неположенных для этого местах. (Исключение - &quot;OwO&quot; &quot;KawaiiBot&quot;)<br>
+1.13) Запрещено создавать новые бесполезные министерства по типу министерство информации<br>
+1.14) Переименование сервера допускается только при сохранении в названии &quot;-Эмбр-&quot;<br>
+1.15) в чатах категории &quot;Основой раздел&quot; и &quot;Главный раздел&quot; запрещен РП<br>
+1.16) Запрещено часто оскорблять человека любыми оскорблениями (3 оскорбления за 5 минут)<br>
+1.17) Запрещена агитация, исключение - умеренная агитация в малых количествах (в ЛС тоже запрещено) <br>
+Прямая агитация - сообщения по типу &quot;Вступайте в СПЭ - Социалистическую Партию Эмбронии&quot;<br>
+Умеренная агитация - сообщения по типу &quot;Не хочешь вступить в нашу партию?)<br>
+1.18) Запрещено находится на двух должностях одновременно <br>
+Например: Парламентарий не может быть полицейским <br>
+(Исключение: Лидер партии может быть всеми кроме Премьер-министра и Президента)<br>
+1.19) Запрещены GIF в виде скримеров/вызывающих эпилепсию<br>
+1.20) Запрещен обман кураторов, жалобы не нарушающие правила сервера<br>
+1.21) Запрещена травля определенного человека<br>
+1.22) Правила сервера находятся выше Конституции, правительство не в праве изменять правила в любом случае.<br>
+1.23) Запрещено устраивать несанкционированные с правительством митинги<br>
+1.24) В случае крайней необходимости, модераторам и кураторам разрешено использовать команды, оффтопить в неположенном месте.<br>
+1.24) Запрещено использовать экономик-ботов где либо кроме экономик раздела и #??чат-экономика <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:mail@yourwebsite.com?subject=&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072;%20&#1069;&#1084;&#1073;&#1088;&#1086;&#1085;&#1089;&#1082;&#1086;&#1081;%20&#1056;&#1077;&#1089;&#1087;&#1091;&#1073;&#1083;&#1080;&#1082;&#1080;:">Send Comments</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
                   </div>
-               </div>
-            </div>
-            <div class="col-2">
-               <div class="col-2-padding">
-                  <div id="wb_aboutText1">
-                     <p style="font-size:20px;line-height:22.5px;color:#28A7E9;"><span style="font-size:32px;line-height:36px;color:#28A7E9;">Что такое ЭР?</span></p>
-                     <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Эмбронская Республика - она же ЭР:</span></p>
-                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;"> Роле-Плей сервер в Дискорде, описывающий политическую и экономическую жизнь гос-ва с таким же названием; принадлежащит ютуб-каналу Эмбро.</span></p>
-                     <p style="font-size:13px;line-height:16px;line-height:20.8px;">&nbsp;</p>
-                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Первый сервер был открыт для публики 5 мая, а второй (нынешний) вследствии разрушения первого одним из администраторов - 28 мая. В настоящий момент, страна находится в состоянии 9-ой республики. </span></p>
+                  <div id="Article3">
+                     <div class="blogitem">
+                        <span class="blogsubject">Наказание за нарушения:</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, January 09, 2020<br></div>
+                        <span style="color:#A9A9A9;">1 нарушение варн и 5 минут мута<br>
+2 нарушение варн и 10 минут мута <br>
+3 нарушение варн и 20 минут мута<br>
+4 нарушение варн и 40 минут мута<br>
+5 нарушение варн и 60 минут мута<br>
+6 нарушений варн и 120 минут мута<br>
+7 нарушение варн и 200 минут мута<br>
+8 нарушение варн и 320 минут мута<br>
+9 нарушение варн и 420 минут мута<br>
+10 нарушение варн и 800 минут мута<br>
+11 нарушение варн и 1000 минут мута<br>
+12 нарушение варн и 1440 минут мута<br>
+13 нарушение варн и 1600 минут мута<br>
+14 нарушение варн и 2000 минут мута<br>
+15 нарушение варн и 2880 минут мута<br>
+16 нарушение варн и 3000 минут мута<br>
+17 нарушение варн и 3200 минут мута<br>
+18 нарушение варн и 3500 минут мута<br>
+19 нарушение варн и 4000 минут мута<br>
+                        </span><span style="color:#FF0000;">20 нарушение - бан на неделю, после чего варны снимаются</span><br>
+                        <div class="blogcomments"><a href="mailto:mail@yourwebsite.com?subject=&#1053;&#1072;&#1082;&#1072;&#1079;&#1072;&#1085;&#1080;&#1077;%20&#1079;&#1072;%20&#1085;&#1072;&#1088;&#1091;&#1096;&#1077;&#1085;&#1080;&#1103;:">Send Comments</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
                   </div>
-                  <a id="aboutButton" href="">Узнать больше!</a>
                </div>
             </div>
             <div class="col-3">
                <div class="col-3-padding">
-                  <div id="aboutTabs">
-                     <ul class="nav-tabs" role="tablist">
-                        <li class="active" role="presentation"><a href="#abouttabs-page-0" role="tab" data-toggle="tab" aria-controls="abouttabs-page-0"><span>РП</span></a></li>
-                        <li role="presentation"><a href="#abouttabs-page-1" role="tab" data-toggle="tab" aria-controls="abouttabs-page-1"><span>Администрация</span></a></li>
-                     </ul>
-                     <div role="tabpanel" class="tab-pane" id="abouttabs-page-0">
-                        <div id="wb_aboutTabsText1">
-                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">РП или Role Play (RP, РП) - это игра по ролям, где каждый должен выполнять свою роль.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Эмбронская республика имеет огромный опыт в РП.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Реализуются многие проекты и идеи.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Большее об этом можете узнать в </span><span style="color:#FFFFFF;">Discord </span><span style="color:#FFFFFF;">канале.</span></p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span></p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
-                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#FFFFFF;">#RolePlayER</span><span style="color:#FFFFFF;">2020</span></p>
-                        </div>
-                     </div>
-                     <div role="tabpanel" class="tab-pane active" id="abouttabs-page-1">
-                        <div id="wb_aboutTabsText2">
-                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">Следящий - Али-Ага Шихлинский<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Гл. Куратор - Nezzer<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Ст. Куратор - Амун<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - Pikanga<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - Джулиано Медичи<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - český chlor</span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span></p>
-                        </div>
-                     </div>
-                  </div>
                </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_team">
-      <div id="team">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_teamHeading1">
-                  <h2 id="teamHeading1">Главные разработчики и управленцы*</h2>
-               </div>
-               <div id="wb_teamHeading2">
-                  <h3 id="teamHeading2">*Список может быть не обновляться</h3>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_teamContainer">
-      <div id="teamContainer" class="owl-carousel owl-theme">
-         <div id="wb_teamCard1">
-            <div id="teamCard1-card-body">
-               <img id="teamCard1-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard1-card-item1">Nezzer</div>
-               <div id="teamCard1-card-item2">Администрация ЭР</div>
-               <div id="teamCard1-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard1-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard1-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard1-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard1-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard1-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
-            </div>
-         </div>
-         <div id="wb_teamCard2">
-            <div id="teamCard2-card-body">
-               <img id="teamCard2-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard2-card-item1">Амун</div>
-               <div id="teamCard2-card-item2">Ст.Куратор</div>
-               <div id="teamCard2-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard2-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard2-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard2-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard2-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard2-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
-            </div>
-         </div>
-         <div id="wb_teamCard3">
-            <div id="teamCard3-card-body">
-               <img id="teamCard3-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard3-card-item1">Sepera_okeq</div>
-               <div id="teamCard3-card-item2">Главный разработчик сайта,первый управленец ЭР</div>
-               <div id="teamCard3-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard3-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard3-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard3-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard3-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard3-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
-            </div>
-         </div>
-         <div id="wb_teamCard4">
-            <div id="teamCard4-card-body">
-               <img id="teamCard4-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard4-card-item1">Lavovi</div>
-               <div id="teamCard4-card-item2">Бывший гл.куратор</div>
-               <div id="teamCard4-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard4-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard4-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard4-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard4-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard4-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
-            </div>
-         </div>
-         <div id="wb_teamCard5">
-            <div id="teamCard5-card-body">
-               <img id="teamCard5-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard5-card-item1">Дядя Витя</div>
-               <div id="teamCard5-card-item2">Бывший гл.куратор</div>
-               <div id="teamCard5-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard5-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard5-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard5-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard5-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard5-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
-            </div>
-         </div>
-         <div id="wb_teamCard6">
-            <div id="teamCard6-card-body">
-               <img id="teamCard6-card-item0" src="images/avatar01.png" alt="" title="">
-               <div id="teamCard6-card-item1">Какой то левый пидор</div>
-               <div id="teamCard6-card-item2">а хер знаю</div>
-               <div id="teamCard6-card-item3"><i class="fa fa-star"></i></div>
-               <div id="teamCard6-card-item4"><i class="fa fa-star"></i></div>
-               <div id="teamCard6-card-item5"><i class="fa fa-star"></i></div>
-               <div id="teamCard6-card-item6"><i class="fa fa-star"></i></div>
-               <div id="teamCard6-card-item7"><i class="fa fa-star"></i></div>
-               <div id="teamCard6-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
             </div>
          </div>
       </div>
@@ -414,5 +328,5 @@
          </div>
       </div>
    </div>
-</body>
+  </body>
 </html>
