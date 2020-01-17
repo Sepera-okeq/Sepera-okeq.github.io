@@ -1,12 +1,418 @@
 <!doctype html>
-<html>
+<html lang="ru">
 <head>
 <meta charset="utf-8">
-<title>Эмбронская республика</title>
+<title>Правительство ЭР</title>
 <meta name="description" content="Эмбронская республика - сервер ютубера Embro. Cайт Правительства ЭР." />
-<meta name="google-site-verification" content="Xovv8bDUdhwJ5tsvzHFY_VUmtqgo_gUKv6exiLmKfDs" />
 <meta name="yandex-verification" content="814a4928a8ffc921" />
-<meta name="Embro" content="width=device-width, initial-scale=1.0">
-<meta name="Embronian" content="width=device-width, initial-scale=1.0">
+<meta name="yandex-verification" content="814a4928a8ffc921" />
+<meta name="yandex-verification" content="1fed0ecd023d36cb" />
+<meta name="yandex-verification" content="814a4928a8ffc921" />
+<link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
+<link href="https://images-ext-1.discordapp.net/external/BKqDu9Vy-iUeifvzPbDubgClwS9-x0VUWJJVOW0msNc/%3Fsize%3D2048/https/cdn.discordapp.com/icons/582146680346902538/7bf7d42016984337d1a9cbe6ca4e203b.jpg?width=468&height=468" rel="shortcut icon" type="image/x-icon">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/darkmode.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="tab.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#welcome']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_welcome').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("a[href*='#news']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_news').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("#newsContainer").owlCarousel({autoplayTimeout:5000, margin: 0, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 1}, slideBy: 1}});
+      $("a[href*='#about']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_about').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("a[href*='#team']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_team').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $("#teamContainer").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},480: {items: 2}, slideBy: 1}});
+      $("a[href*='#contact']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-78 }, 600, 'easeOutQuart');
+      });
+      $(document).on('click','.navigationMenu-navbar-collapse.in',function(e)
+      {
+         if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+         {
+            $(this).collapse('hide');
+         }
+      });
+      $("a[href*='#contactForm']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contactForm').offset().top }, 600, 'easeInCubic');
+      });
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("#aboutTabs a").click(function()
+      {
+         $(this).tab('show');
+      });
+   });
+</script>
 </head>
+<body>
+   <div id="wb_navigation">
+      <div id="navigation">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_navigationHeading">
+                  <h1 id="navigationHeading">Правительство ЭР</h1>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_navigationMenu">
+                  <div id="navigationMenu" class="navigationMenu" style="width:100%;height:auto !important;">
+                     <div class="container">
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigationMenu-navbar-collapse">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                           </button>
+                        </div>
+                        <div class="navigationMenu-navbar-collapse collapse">
+                           <ul class="nav navbar-nav">
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/start/">Домашняя</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/news/">Новости</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/rules/">Правила</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/constitutional">Конституция</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/mincter/">Министерства</a>
+                              </li>
+                              <li class="">
+                                 <a href="https://sepera-okeq.github.io/etc/">Дополнительное</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_welcome">
+      <div id="welcome-overlay"></div>
+      <div id="welcome">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_welcomeHeading">
+                  <h1 id="welcomeHeading">Главное управление Эмбронской республики</h1>
+               </div>
+               <div id="wb_welcomeJavaScript">
+                  <div id="typewriter-deluxe">
+                     <span id="typewriter-text"></span>
+                  </div>
+                  <script>                  
+                  var data = "The government of the Embronian Republic ";
+                  var lines = data.split('^');
+                  var reverse = false;
+                  var index = 0;
+                  var text = '';
+                  var typeWriterElement = document.getElementById("typewriter-text");
+                  function typeWriterDeluxe() 
+                  {
+                     var i = index % lines.length;
+                     var line = lines[i];
+                     if (reverse) 
+                     {
+                        text = line.substring(0, text.length - 1);
+                     } 
+                     else 
+                     {
+                        text = line.substring(0, text.length + 1);
+                     }
+                     typeWriterElement.innerHTML = text;
+                     var timeout = 250 - Math.random() * (250/2);
+                     if (reverse) 
+                     { 
+                        timeout /= 2; 
+                     }
+                     if (!reverse && text === line) 
+                     {
+                        timeout = 5000;
+                        reverse = true;
+                     } 
+                     else 
+                     if (reverse && text === '') 
+                     {
+                        reverse = false;
+                        index++;
+                        timeout = 500;
+                     }
+                     setTimeout(typeWriterDeluxe, timeout);
+                  }
+                  typeWriterDeluxe();
+                  </script>
+               </div>
+               <a id="welcomeButton" href="#news">Войти в систему</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_news">
+      <div id="news">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_newsHeading">
+                  <h2 id="newsHeading">Текущие новости</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_newsContainer">
+      <div id="newsContainer" class="owl-carousel owl-theme">
+         <div id="wb_newsCard1">
+            <div id="newsCard1-card-body">
+               <div id="newsCard1-card-item0">"Выборы Президента на носу. Кто победит? Сторонники Парламента? Или же сторонники Президента??"</div>
+               <div id="newsCard1-card-item1">January 11, 2020</div>
+            </div>
+         </div>
+         <div id="wb_newsCard2">
+            <div id="newsCard2-card-body">
+               <div id="newsCard2-card-item0">"Свержение парламента,суда,и многое что... Информация доступна в Discord канале."</div>
+               <div id="newsCard2-card-item1">January 09, 2020</div>
+            </div>
+         </div>
+         <div id="wb_newsCard3">
+            <div id="newsCard3-card-body">
+               <div id="newsCard3-card-item0">"Cайт правительства ЭР обновлен до версии 2.1"</div>
+               <div id="newsCard3-card-item1">January 11,2020</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_about">
+      <div id="about">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_aboutImage">
+                     <img src="images/beijing-square.png" id="aboutImage" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_aboutText1">
+                     <p style="font-size:20px;line-height:22.5px;color:#28A7E9;"><span style="font-size:32px;line-height:36px;color:#28A7E9;">Что такое ЭР?</span></p>
+                     <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Эмбронская Республика - она же ЭР:</span></p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;"> Роле-Плей сервер в Дискорде, описывающий политическую и экономическую жизнь гос-ва с таким же названием; принадлежащит ютуб-каналу Эмбро.</span></p>
+                     <p style="font-size:13px;line-height:16px;line-height:20.8px;">&nbsp;</p>
+                     <p style="font-size:13px;line-height:16px;color:#FFFFFF;line-height:20.8px;"><span style="color:#FFFFFF;">Первый сервер был открыт для публики 5 мая, а второй (нынешний) вследствии разрушения первого одним из администраторов - 28 мая. В настоящий момент, страна находится в состоянии 9-ой республики. </span></p>
+                  </div>
+                  <a id="aboutButton" href="">Узнать больше!</a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="aboutTabs">
+                     <ul class="nav-tabs" role="tablist">
+                        <li class="active" role="presentation"><a href="#abouttabs-page-0" role="tab" data-toggle="tab" aria-controls="abouttabs-page-0"><span>РП</span></a></li>
+                        <li role="presentation"><a href="#abouttabs-page-1" role="tab" data-toggle="tab" aria-controls="abouttabs-page-1"><span>Администрация</span></a></li>
+                     </ul>
+                     <div role="tabpanel" class="tab-pane" id="abouttabs-page-0">
+                        <div id="wb_aboutTabsText1">
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">РП или Role Play (RP, РП) - это игра по ролям, где каждый должен выполнять свою роль.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Эмбронская республика имеет огромный опыт в РП.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Реализуются многие проекты и идеи.</span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;"><br/></span><span style="color:#FFFFFF;">Большее об этом можете узнать в </span><span style="color:#FFFFFF;">Discord </span><span style="color:#FFFFFF;">канале.</span></p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;">&nbsp;</p>
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#FFFFFF;">#RolePlayER</span><span style="color:#FFFFFF;">2020</span></p>
+                        </div>
+                     </div>
+                     <div role="tabpanel" class="tab-pane active" id="abouttabs-page-1">
+                        <div id="wb_aboutTabsText2">
+                           <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="color:#FFFFFF;">Следящий - Али-Ага Шихлинский<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Гл. Куратор - Nezzer<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Ст. Куратор - Амун<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - Pikanga<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - Джулиано Медичи<br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;">Куратор - český chlor</span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span><span style="color:#FFFFFF;"><br></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_team">
+      <div id="team">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_teamHeading1">
+                  <h2 id="teamHeading1">Главные разработчики и управленцы*</h2>
+               </div>
+               <div id="wb_teamHeading2">
+                  <h3 id="teamHeading2">*Список может быть не обновляться</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_teamContainer">
+      <div id="teamContainer" class="owl-carousel owl-theme">
+         <div id="wb_teamCard1">
+            <div id="teamCard1-card-body">
+               <img id="teamCard1-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard1-card-item1">Nezzer</div>
+               <div id="teamCard1-card-item2">Администрация ЭР</div>
+               <div id="teamCard1-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard1-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard2">
+            <div id="teamCard2-card-body">
+               <img id="teamCard2-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard2-card-item1">Амун</div>
+               <div id="teamCard2-card-item2">Ст.Куратор</div>
+               <div id="teamCard2-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard2-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard3">
+            <div id="teamCard3-card-body">
+               <img id="teamCard3-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard3-card-item1">Sepera_okeq</div>
+               <div id="teamCard3-card-item2">Главный разработчик сайта,первый управленец ЭР</div>
+               <div id="teamCard3-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard3-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard4">
+            <div id="teamCard4-card-body">
+               <img id="teamCard4-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard4-card-item1">Lavovi</div>
+               <div id="teamCard4-card-item2">Бывший гл.куратор</div>
+               <div id="teamCard4-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard4-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard5">
+            <div id="teamCard5-card-body">
+               <img id="teamCard5-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard5-card-item1">Дядя Витя</div>
+               <div id="teamCard5-card-item2">Бывший гл.куратор</div>
+               <div id="teamCard5-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard5-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+         <div id="wb_teamCard6">
+            <div id="teamCard6-card-body">
+               <img id="teamCard6-card-item0" src="images/avatar01.png" alt="" title="">
+               <div id="teamCard6-card-item1">Какой то левый пидор</div>
+               <div id="teamCard6-card-item2">а хер знаю</div>
+               <div id="teamCard6-card-item3"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item4"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item5"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item6"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item7"><i class="fa fa-star"></i></div>
+               <div id="teamCard6-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contact">
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactHeadingText">
+                  <p style="font-size:32px;line-height:36px;color:#FFFFFF;"><span style="color:#FFFFFF;">КОНТАКТЫ</span><span style="color:#FFFFFF;">&nbsp;</span><span style="font-weight:bold;color:#28A7E9;">INFORMATION</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contactForm">
+      <div id="contactForm">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactText">
+                  <p style="font-size:15px;line-height:16.5px;color:#FFFFFF;line-height:22.4px;"><span style="color:#FFFFFF;">Вы всегда можете обратиться к Администрации и Правительству Эмбронской республики по этим контактам:</span></p>
+                  <p style="font-size:15px;line-height:16.5px;line-height:22.4px;">&nbsp;</p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Address:</span><span style="color:#FFFFFF;">&nbsp; Antarctica, the city of </span><span style="color:#FFFFFF;">&nbsp;</span><span style="color:#FFFFFF;">Embro-City, The Main Department of Affairs of the ER Administration</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Phone:</span><span style="color:#FFFFFF;">&nbsp; 8-800-555-35-35</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Email:</span><span style="color:#FFFFFF;">&nbsp; nezzerpidoras@gmail.com</span></p>
+                  <p style="font-size:15px;line-height:16.5px;color:#28A7E9;line-height:22.4px;"><span style="font-weight:bold;color:#28A7E9;">Discord:</span><span style="color:#FFFFFF;">&nbsp; https://discord.gg/XFDxbhU</span></p>
+               </div>
+            </div>
+            <div class="col-2">
+               <iframe name="InlineFrame1" id="InlineFrame1" src="https://discordapp.com/widget?id=582146680346902538&theme=dark"></iframe>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="StickyLayer" data-250-start="opacity:1;" data-start="opacity:0;">
+      <div id="wb_up-arrow">
+         <a href="#welcome"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+   </div>
+   <div id="wb_footer">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_footerText">
+                  <p style="font-size:12px;line-height:13.5px;color:#FFFFFF;"><span style="background-color:#FFFFFF;color:#FFFFFF;">C</span><span style="background-color:#FFFFFF;color:#FFFFFF;">opyright </span><span style="background-color:#FFFFFF;color:#FFFFFF;">©</span><span style="background-color:#FFFFFF;color:#FFFFFF;"> 20</span><span style="background-color:#FFFFFF;color:#FFFFFF;">20</span><span style="background-color:#FFFFFF;color:#FFFFFF;">&nbsp;</span><span style="background-color:#FFFFFF;color:#FFFFFF;">Sepera_okeq</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
 </html>
