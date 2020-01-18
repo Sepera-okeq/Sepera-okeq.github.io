@@ -43,7 +43,7 @@ var chart = am4core.createFromConfig({
       "lowValueY": "low",
       "highValueY": "high"
     },
-    "tooltipText": "Open:${openValueY.value}\nLow:${lowValueY.value}\nHigh:${highValueY.value}\nClose:${valueY.value}",
+    "tooltipText": "Цена открытия : ${openValueY.value}\nМинимальное значение : ${lowValueY.value}\nМаксимальное значение : ${highValueY.value}\nЦена закрытия : ${valueY.value}",
     "riseFromPreviousState": {
       "properties": {
         "fillOpacity": 1
