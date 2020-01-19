@@ -85,7 +85,7 @@ var chart = am4core.createFromConfig({
     "open": "14.43",
     "high": "14.61",
     "low": "14.23",
-    "close": "14.61"
+    "close": "14.57"
   }, {
     "date": "2020-01-20",
     "open": "0.00",
