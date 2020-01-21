@@ -61,4 +61,76 @@
          inset: false
       });
       $("#Carousel1").bootstrapcarousel({interval:3000, pause: false});
+      $("#Accordion1 .panel").on('show.bs.collapse', function()
+      {
+         $(this).addClass('active');
+      });
+      $("#Accordion1 .panel").on('hide.bs.collapse', function()
+      {
+         $(this).removeClass('active');
+      });
+      $("#Progressbar5").progressbar(
+      {
+         value: 100,
+         change: function() 
+         {
+            $("#Progressbar5-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar6").progressbar(
+      {
+         value: 99,
+         change: function() 
+         {
+            $("#Progressbar6-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar7").progressbar(
+      {
+         value: 12,
+         change: function() 
+         {
+            $("#Progressbar7-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar8").progressbar(
+      {
+         value: 86,
+         change: function() 
+         {
+            $("#Progressbar8-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar9").progressbar(
+      {
+         value: 89,
+         change: function() 
+         {
+            $("#Progressbar9-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar10").progressbar(
+      {
+         value: 11,
+         change: function() 
+         {
+            $("#Progressbar10-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar11").progressbar(
+      {
+         value: 100,
+         change: function() 
+         {
+            $("#Progressbar11-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#Progressbar12").progressbar(
+      {
+         value: 86,
+         change: function() 
+         {
+            $("#Progressbar12-label").text($(this).progressbar('value') + '%');
+         }
+      });
    });

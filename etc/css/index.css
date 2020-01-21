@@ -1727,3 +1727,600 @@ body
 {
    text-align: left;
 }
+#Accordion1 *, #Accordion1 *::before, #Accordion1 *::after
+{
+   box-sizing: border-box;
+}
+#Accordion1 .panel
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+   margin-bottom: 1px;
+   overflow: hidden;
+   text-align: left;
+}
+#Accordion1 .panel-default
+{
+   border-color: #C5C5C5;
+}
+#Accordion1.panel-group .panel
+{
+   margin-bottom: 0px;
+   overflow: hidden;
+   border-radius: 4px;
+}
+#Accordion1 .panel-heading
+{
+   padding: 9px 10px 9px 10px;
+   border-bottom: 1px solid transparent;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#Accordion1 .panel-default > .panel-heading
+{
+   background-color: #F6F6F6;
+   background-image: none;
+}
+#Accordion1 .panel-default.active
+{
+   border-color: #DDDDDD;
+}
+#Accordion1 .panel-default.active > .panel-heading
+{
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#Accordion1 .panel-body
+{
+   padding: 4px 4px 4px 4px;
+   font-size: 0;
+   text-align: left;
+   position: relative;
+}
+#Accordion1 .panel-body::before, #Accordion1 .panel-body::after
+{
+   display: table;
+   content: " ";
+}
+#Accordion1 .panel-body::after
+{
+   clear: both;
+}
+}
+#Accordion1 .panel-default > .panel-heading + .panel-collapse .panel-body
+{
+   border-top-color: #C5C5C5;
+}
+#Accordion1 .panel-title
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   display: block;
+   color: #454545;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px !important;
+   font-style: normal;
+   text-align: left;
+}
+#Accordion1 .panel-title > a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Accordion1 .active .panel-title > a
+{
+   color: #000000;
+}
+#Accordion1 .collapse 
+{
+   display: none;
+}
+#Accordion1 .collapse.in
+{
+   display: block;
+}
+#Accordion1 .collapsing
+{
+   position: relative;
+   height: 0;
+   overflow: hidden;
+   -webkit-transition: height 0.35s linear;
+   transition: height 0.35s linear;
+}
+#Accordion1 .panel-default .panel-heading .panel-icon
+{
+   width: 16px;
+   height: 16px;
+   box-sizing: content-box;
+   padding-right: 4px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: -0.25em;
+   position: relative;
+   text-indent: -99999px;
+   overflow: hidden;
+   background-image: url(../images/wb14_portal-Accordion1-default.png);
+   background-repeat: no-repeat;
+}
+#Accordion1 .panel-default.active .panel-heading .panel-icon
+{
+   background-image: url(../images/wb14_portal-Accordion1-active.png);
+}
+#wb_Accordion1
+{
+   margin: 20px 20px 0px 20px;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Label5
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar5
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar5, #Progressbar5 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar5, #Progressbar5 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar5,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar5 .ui-widget-header
+{
+   border-color: #5CB85C;
+   background-color: #5CB85C;
+   background-image: none;
+}
+#Progressbar5-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label6
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar6
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar6, #Progressbar6 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar6, #Progressbar6 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar6,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar6 .ui-widget-header
+{
+   border-color: #5BC0DE;
+   background-color: #5BC0DE;
+   background-image: none;
+}
+#Progressbar6-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label7
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar7
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar7, #Progressbar7 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar7, #Progressbar7 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar7,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar7 .ui-widget-header
+{
+   border-color: #F0AD4E;
+   background-color: #F0AD4E;
+   background-image: none;
+}
+#Progressbar7-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label8
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar8
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar8, #Progressbar8 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar8, #Progressbar8 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar8,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar8 .ui-widget-header
+{
+   border-color: #D9534F;
+   background-color: #D9534F;
+   background-image: none;
+}
+#Progressbar8-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label9
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar9
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar9, #Progressbar9 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar9, #Progressbar9 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar9,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar9 .ui-widget-header
+{
+   border-color: #5BC0DE;
+   background-color: #5BC0DE;
+   background-image: none;
+}
+#Progressbar9-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label10
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar10
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar10, #Progressbar10 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar10, #Progressbar10 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar10,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar10 .ui-widget-header
+{
+   border-color: #D9534F;
+   background-color: #D9534F;
+   background-image: none;
+}
+#Progressbar10-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label11
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar11
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar11, #Progressbar11 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar11, #Progressbar11 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar11,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar11 .ui-widget-header
+{
+   border-color: #5CB85C;
+   background-color: #5CB85C;
+   background-image: none;
+}
+#Progressbar11-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#Label12
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Progressbar12
+{
+   margin: 0;
+   position: relative;
+}
+#Progressbar12, #Progressbar12 .ui-corner-right
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Progressbar12, #Progressbar12 .ui-corner-left
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Progressbar12,ui-widget-content
+{
+   border-color: #EEEEEE;
+   background-color: #EEEEEE;
+   background-image: none;
+}
+#Progressbar12 .ui-widget-header
+{
+   border-color: #D9534F;
+   background-color: #D9534F;
+   background-image: none;
+}
+#Progressbar12-label
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   vertical-align: middle;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
