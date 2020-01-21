@@ -92,7 +92,7 @@ body
 }
 .ThemeableMenu1 .nav
 {
-   font-family: Arial;
+   font-family: "Comic Sans MS";
    font-weight: normal;
    font-size: 16px;
    font-style: normal;
@@ -768,9 +768,9 @@ body
    margin-bottom: 0px;
    display: block;
    color: #454545;
-   font-family: Arial;
+   font-family: "Comic Sans MS";
    font-weight: normal;
-   font-size: 27px !important;
+   font-size: 24px !important;
    font-style: normal;
    text-align: left;
 }
@@ -1215,7 +1215,7 @@ body
    text-align: left;
 }
 #ListView1{
-   font-family: Arial;
+   font-family: "Comic Sans MS";
    font-weight: normal;
    font-size: 0;
    border-width: 0;
@@ -1247,7 +1247,7 @@ body
    margin: 0;
    padding: 0;
    list-style: none;
-   font-size: 32px;
+   font-size: 24px;
 }
 #ListView1 > li 
 {
