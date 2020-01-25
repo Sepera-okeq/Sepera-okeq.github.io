@@ -90,7 +90,7 @@ AmCharts.makeChart("chartdiv",
 						{
 							"date": "2014-03-01",
 							"one": 1.3999,
-							"two": 654.4919,
+							"two": 0,
 							"three": 20.1906,
 							"four": 5.6030,
 							"five": 26.0552,
