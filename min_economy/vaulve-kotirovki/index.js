@@ -62,7 +62,7 @@ AmCharts.makeChart("chartdiv",
 						{
 							"bullet": "square",
 							"id": "AmGraph-8",
-							"title": "валюта-валюта 8",
+							"title": "Дустёры(DST)",
 							"valueField": "eight"
 						}
 					],
