@@ -18,45 +18,45 @@ AmCharts.makeChart("chartdiv",
 						{
 							"bullet": "round",
 							"id": "AmGraph-1",
-							"title": "валюта-валюта 1",
+							"title": "Республиканский Эмброний(REM)",
 							"valueField": "two"
 						},
 						{
 							"bullet": "square",
 							"id": "AmGraph-2",
 							"periodSpan": -1,
-							"title": "валюта-валюта 2",
+							"title": "Королевский Эмброний(RMB)",
 							"valueField": "three"
 						},
 						{
 							"bullet": "round",
 							"id": "AmGraph-3",
 							"negativeBase": -3,
-							"title": "валюта-валюта 3",
+							"title": "Гиллес(GLS)",
 							"valueField": "one"
 						},
 						{
 							"bullet": "diamond",
 							"id": "AmGraph-4",
-							"title": "валюта-валюта 4",
+							"title": "Катян(KTN)",
 							"valueField": "four"
 						},
 						{
 							"bullet": "triangleUp",
 							"id": "AmGraph-5",
-							"title": "валюта-валюта 5",
+							"title": "Харальдкоин(HCN)",
 							"valueField": "five"
 						},
 						{
 							"bullet": "triangleDown",
 							"id": "AmGraph-6",
-							"title": "валюта-валюта 6",
+							"title": "Ричландий(RCL)",
 							"valueField": "six"
 						},
 						{
 							"bullet": "bubble",
 							"id": "AmGraph-7",
-							"title": "валюта-валюта 7",
+							"title": "Брайны(BRN)",
 							"valueField": "seven"
 						},
 						{
