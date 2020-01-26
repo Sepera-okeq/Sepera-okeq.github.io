@@ -24,14 +24,12 @@ AmCharts.makeChart("chartdiv",
 						{
 							"bullet": "square",
 							"id": "AmGraph-2",
-							"periodSpan": -1,
 							"title": "Королевский Эмброний(RMB)",
 							"valueField": "three"
 						},
 						{
 							"bullet": "round",
 							"id": "AmGraph-3",
-							"negativeBase": -3,
 							"title": "Гиллес(GLS)",
 							"valueField": "one"
 						},
