@@ -100,14 +100,14 @@ AmCharts.makeChart("chartdiv",
 						},
 						{
 							"date": "2014-03-02",
-							"one": 0,
+							"one": 1.5952,
 							"two": 0,
-							"three": 0,
-							"four": 0,
-							"five": 0,
-							"six": 0,
-							"seven": 0,
-							"eight": 0
+							"three": 19.7235,
+							"four": 5.5932,
+							"five": 26.0013,
+							"six": 0.0915,
+							"seven": 0.0292,
+							"eight": 0.5304
 						},
 						{
 							"date": "2014-03-03",
