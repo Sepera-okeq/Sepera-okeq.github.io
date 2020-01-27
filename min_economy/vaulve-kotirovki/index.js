@@ -18,7 +18,7 @@ AmCharts.makeChart("chartdiv",
 						{
 							"bullet": "round",
 							"id": "AmGraph-1",
-							"title": "Республиканский Эмброний(REM)",
+							"title": "Резерв -1 ",
 							"valueField": "two"
 						},
 						{
