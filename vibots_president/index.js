@@ -30,12 +30,13 @@ var chart = am4core.createFromConfig({
     party: "☭Вишивани☭ (UkroKing)",
     litres: 0
   }
-  /*
   ,
   {
-    party: "Belgium",
-    litres: 60
-  },
+    party: "Брак",
+    litres: 0
+  }
+  /*
+  ,
   {
     party: "The Netherlands",
     litres: 50
