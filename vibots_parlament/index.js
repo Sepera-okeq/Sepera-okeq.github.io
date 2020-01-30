@@ -10,24 +10,25 @@ var chart = am4core.createFromConfig({
     litres: 0
   },
   {
-    party: "ОКП",
+    party: "ОПТЭР",
     litres: 0
   },
   {
     party: "ОУН",
     litres: 0
   }
-  /*
   ,
   {
-    party: "Неззер Монархист",
-    litres: 502
+    party: "ЛБЭР",
+    litres: 0
   }
   ,
   {
-    party: "UK",
-    litres: 99
-  },
+    party: "партия ВПИ",
+    litres: 0
+  }
+  /*
+  ,
   {
     party: "Belgium",
     litres: 60
