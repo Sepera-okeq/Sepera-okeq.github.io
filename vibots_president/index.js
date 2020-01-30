@@ -2,7 +2,7 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    party: "Bełarusiań Huśśar",
+    party: "Bellarusian Hussar",
     litres: 0
   },
   {
@@ -26,7 +26,7 @@ var chart = am4core.createFromConfig({
     litres: 0 
   },
   {
-    party: "☭Вишивани☭ (UkroKing)",
+    party: "Вишивани-UkroKing",
     litres: 0
   },
   {
