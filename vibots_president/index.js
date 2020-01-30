@@ -2,38 +2,39 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    party: "НПР",
-    litres: 43
+    party: "Bellarusian Hussar",
+    litres: 0
+  },
+  {
+    party: "SarcasticCat",
+    litres: 0
+  },
+  {
+    party: "Вальхалла",
+    litres: 0
+  },
+  {
+    party: "Mr.House",
+    litres: 0
+  },
+  {
+    party: "Али-Ага Шихлинский",
+    litres: 0
+  },
+  {
+    party: "Эдвард Нортон",
+    litres: 0 
+  },
+  {
+    party: "Вишивани-UkroKing",
+    litres: 0
   },
   {
     party: "Брак",
-    litres: 9
-  },
-  {
-    party: "АПЭ",
-    litres: 15
-  },
-  {
-    party: "ОКП",
-    litres: 16
-  },
-  {
-    party: "ОУН",
-    litres: 16
-  },
-  {
-    party: "Неззер Монархист",
-    litres: 502
+    litres: 0
   }
   /*
-  {
-    party: "UK",
-    litres: 99
-  },
-  {
-    party: "Belgium",
-    litres: 60
-  },
+  ,
   {
     party: "The Netherlands",
     litres: 50
