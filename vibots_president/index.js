@@ -24,13 +24,11 @@ var chart = am4core.createFromConfig({
   {
     party: "Эдвард Нортон",
     litres: 0 
-  }
- 
+  },
   {
     party: "☭Вишивани☭ (UkroKing)",
     litres: 0
-  }
-  ,
+  },
   {
     party: "Брак",
     litres: 0
