@@ -3,29 +3,29 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.createFromConfig({
   "data": [{
     party: "Брак",
-    litres: 0
+    litres: 17
   },
   {
     party: "АПЭ",
-    litres: 0
+    litres: 20
   },
   {
     party: "ОПТЭР",
-    litres: 0
+    litres: 2
   },
   {
     party: "ОУН",
-    litres: 0
+    litres: 9
   }
   ,
   {
     party: "ЛБЭР",
-    litres: 0
+    litres: 12
   }
   ,
   {
     party: "партия ВПИ",
-    litres: 0
+    litres: 5
   }
   /*
   ,
