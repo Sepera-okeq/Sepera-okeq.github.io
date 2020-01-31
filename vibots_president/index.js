@@ -7,31 +7,31 @@ var chart = am4core.createFromConfig({
   },
   {
     party: "SarcasticCat",
-    litres: 0
+    litres: 6
   },
   {
     party: "Вальхалла",
-    litres: 0
+    litres: 1
   },
   {
     party: "Mr.House",
-    litres: 0
+    litres: 32
   },
   {
     party: "Али-Ага Шихлинский",
-    litres: 0
+    litres: 6
   },
   {
     party: "Эдвард Нортон",
-    litres: 0 
+    litres: 2
   },
   {
     party: "Вишивани-UkroKing",
-    litres: 0
+    litres: 3
   },
   {
     party: "Брак",
-    litres: 0
+    litres: 13
   }
   /*
   ,
