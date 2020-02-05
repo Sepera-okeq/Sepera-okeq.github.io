@@ -11,7 +11,7 @@ var chart = am4core.createFromConfig({
   },
   {
     cydia: "Симонов",
-    litres: 19
+    litres: 29
   },
   {
     cydia: "Дейрон",
