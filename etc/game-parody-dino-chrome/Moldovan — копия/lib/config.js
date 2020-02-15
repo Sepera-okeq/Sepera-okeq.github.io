@@ -25,11 +25,11 @@ export default {
     cactusDoubleB: { h: 92, w: 80, x: 184, y: 31 },
     cactusTriple: { h: 66, w: 82, x: 266, y: 31 },
     cloud: { h: 28, w: 92, x: 794, y: 31 },
-    dino: { h: 125, w: 80, x: 350, y: 26 },
+    dino: { h: 125, w: 80, x: 350, y: 31 },
     dinoDuckLeftLeg: { h: 62, w: 110, x: 596, y: 31 }, 
     dinoDuckRightLeg: { h: 62, w: 110, x: 596, y: 94 },
-    dinoLeftLeg: { h: 86, w: 80, x: 432, y: 26 }, //92
-    dinoRightLeg: { h: 86, w: 80, x: 514, y: 26 },
+    dinoLeftLeg: { h: 86, w: 80, x: 432, y: 31 }, //92
+    dinoRightLeg: { h: 86, w: 80, x: 514, y: 31 },
     ground: { h: 24, w: 2400, x: 0, y: 2 },
     replayIcon: { h: 60, w: 68, x: 0, y: 31 }
   }
