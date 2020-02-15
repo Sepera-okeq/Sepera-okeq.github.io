@@ -147,7 +147,7 @@ new P5(p5 => {
       dino.nextFrame()
       spriteImage(dino.sprite, dino.x, dino.y)
     } else {
-      spriteImage('dino', 35, (p5.height - (config.sprites.dino.h / 2) - 4))
+      spriteImage('dino', 35, (p5.height - (config.sprites.dino.h / 2)))
     }
   }
 
