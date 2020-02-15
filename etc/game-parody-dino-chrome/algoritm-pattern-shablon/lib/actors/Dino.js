@@ -11,7 +11,7 @@ export default class Dino extends Actor {
     this.legShowing = 'Left'
     this.sprite = `dino${this.legShowing}Leg`
     this.velocity = 0
-    this.x = 30
+    this.x = 35
     this.relativeY = 0
   }
 
