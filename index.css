@@ -1,0 +1,154 @@
+div#container
+{
+   width: 1131px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Youtube_player
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_Main_text 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Main_text div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Shape1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape1
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}
+#wb_Shape2
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape2
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}
+#wb_Shape3
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape3
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}
+#wb_Shape4
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape4
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}
+#wb_Shape5
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape5
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape5
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}
+#wb_Shape6
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape6
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape6
+{
+   margin: 0;
+   -webkit-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+   animation: turbine-out 3500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0ms infinite reverse forwards, rainbow-background 1000ms linear 0ms infinite normal both, open-down-right 1000ms linear 0ms infinite normal both, transform-swing 1000ms linear 0ms infinite normal both;
+}

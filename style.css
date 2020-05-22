@@ -1,0 +1,198 @@
+@-webkit-keyframes open-down-right
+{
+   0% { -webkit-transform-origin: bottom right; -webkit-transform: rotate(0deg) ;  }
+   100% { -webkit-transform: rotate(110deg) ; -webkit-transform-origin: bottom right;  }
+}
+@-moz-keyframes open-down-right
+{
+   0% { -moz-transform-origin: bottom right; -moz-transform: rotate(0deg) ;  }
+   100% { -moz-transform: rotate(110deg) ; -moz-transform-origin: bottom right;  }
+}
+@keyframes open-down-right
+{
+   0% { transform-origin: bottom right; transform: rotate(0deg) ;  }
+   100% { transform: rotate(110deg) ; transform-origin: bottom right;  }
+}
+@-webkit-keyframes rainbow-background
+{
+   0% { background-color: #FF3399;  }
+   23% { background-color: #FF6633;  }
+   48% { background-color: #FFF802;  }
+   80% { background-color: #04A396;  }
+   100% { background-color: #3366FF;  }
+}
+@-moz-keyframes rainbow-background
+{
+   0% { background-color: #FF3399;  }
+   23% { background-color: #FF6633;  }
+   48% { background-color: #FFF802;  }
+   80% { background-color: #04A396;  }
+   100% { background-color: #3366FF;  }
+}
+@keyframes rainbow-background
+{
+   0% { background-color: #FF3399;  }
+   23% { background-color: #FF6633;  }
+   48% { background-color: #FFF802;  }
+   80% { background-color: #04A396;  }
+   100% { background-color: #3366FF;  }
+}
+@-webkit-keyframes transform-swing
+{
+   0% { -webkit-transform: rotate(0deg) ;  }
+   20% { -webkit-transform-origin: top center; -webkit-transform: rotate(15deg) ;  }
+   40% { -webkit-transform-origin: top center; -webkit-transform: rotate(-10deg) ;  }
+   60% { -webkit-transform-origin: top center; -webkit-transform: rotate(5deg) ;  }
+   80% { -webkit-transform-origin: top center; -webkit-transform: rotate(-5deg) ;  }
+   100% { -webkit-transform-origin: top center; -webkit-transform: rotate(0deg) ;  }
+}
+@-moz-keyframes transform-swing
+{
+   0% { -moz-transform: rotate(0deg) ;  }
+   20% { -moz-transform-origin: top center; -moz-transform: rotate(15deg) ;  }
+   40% { -moz-transform-origin: top center; -moz-transform: rotate(-10deg) ;  }
+   60% { -moz-transform-origin: top center; -moz-transform: rotate(5deg) ;  }
+   80% { -moz-transform-origin: top center; -moz-transform: rotate(-5deg) ;  }
+   100% { -moz-transform-origin: top center; -moz-transform: rotate(0deg) ;  }
+}
+@keyframes transform-swing
+{
+   0% { transform: rotate(0deg) ;  }
+   20% { transform-origin: top center; transform: rotate(15deg) ;  }
+   40% { transform-origin: top center; transform: rotate(-10deg) ;  }
+   60% { transform-origin: top center; transform: rotate(5deg) ;  }
+   80% { transform-origin: top center; transform: rotate(-5deg) ;  }
+   100% { transform-origin: top center; transform: rotate(0deg) ;  }
+}
+@-webkit-keyframes turbine-out
+{
+   0% { -webkit-transform: rotate(0deg) scale(1,1) ; opacity: 1;  }
+   10% { -webkit-transform: translate(0px,25px) rotate(413deg) scale(1.0,1.0) ; opacity: 0.8;  }
+   20% { -webkit-transform: translate(0px,50px) rotate(4092deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { -webkit-transform: translate(0px,75px) rotate(35865deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   100% { opacity: 0; -webkit-transform: translate(0px,200px) rotate(180deg) scale(1,1) ;  }
+}
+@-moz-keyframes turbine-out
+{
+   0% { -moz-transform: rotate(0deg) scale(1,1) ; opacity: 1;  }
+   10% { -moz-transform: translate(0px,25px) rotate(413deg) scale(1.0,1.0) ; opacity: 0.8;  }
+   20% { -moz-transform: translate(0px,50px) rotate(4092deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { -moz-transform: translate(0px,75px) rotate(35865deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   100% { opacity: 0; -moz-transform: translate(0px,200px) rotate(180deg) scale(1,1) ;  }
+}
+@keyframes turbine-out
+{
+   0% { transform: rotate(0deg) scale(1,1) ; opacity: 1;  }
+   10% { transform: translate(0px,25px) rotate(413deg) scale(1.0,1.0) ; opacity: 0.8;  }
+   20% { transform: translate(0px,50px) rotate(4092deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { transform: translate(0px,75px) rotate(35865deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   100% { opacity: 0; transform: translate(0px,200px) rotate(180deg) scale(1,1) ;  }
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}

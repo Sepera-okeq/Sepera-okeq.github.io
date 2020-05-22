@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>Сайт Эмбронской Республики</title>
+<meta name="description" content="Сайт Эмбронской республики.">
+<meta name="keywords" content="ЭР,Эмбронская Республика,РП,Администрация,Эмбро">
+<meta name="author" content="Sepera_okeq">
+<meta name="categories" content="Main">
+<link href="style.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div id="wb_Youtube_player" style="position:absolute;left:111px;top:178px;width:723px;height:406px;z-index:0;">
+<iframe id="Youtube_player" src="https://www.youtube.com/embed/2UtiggMjbu0?rel=1&amp;autoplay=1&amp;autohide=0"></iframe>
+</div>
+<div id="wb_Main_text" style="position:absolute;left:254px;top:0px;width:437px;height:55px;z-index:1;">
+<span style="color:#FFFFFF;font-family:Georgia;font-size:48px;">Cайт в разработке!</span></div>
+<div id="wb_Text2" style="position:absolute;left:87px;top:107px;width:771px;height:23px;z-index:2;">
+<span style="color:#FFFFFF;font-family:Georgia;font-size:20px;">А пока он в разработке,можете глянуть недавно вышедшее видео с новостями ЭР</span></div>
+<div id="wb_Shape1" style="position:absolute;left:64px;top:24px;width:47px;height:41px;z-index:3;">
+<img src="images/img0001.png" id="Shape1" alt="" style="width:47px;height:41px;"></div>
+<div id="wb_Time_scripts" style="position:absolute;left:625px;top:65px;width:66px;height:24px;z-index:4;">
+<div style="color:#FFFFFF;font-size:16px;font-family:Arial;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="basicclock"></div>
+<script>
+function clock() 
+{
+   var digital = new Date();
+   var hours = digital.getHours();
+   var minutes = digital.getMinutes();
+   var seconds = digital.getSeconds();
+   if (minutes <= 9) minutes = "0" + minutes;
+   if (seconds <= 9) seconds = "0" + seconds;
+   dispTime = hours + ":" + minutes + ":" + seconds;
+
+   var basicclock = document.getElementById('basicclock');
+   basicclock.innerHTML = dispTime;
+   setTimeout("clock()", 1000);
+}
+clock();
+</script>
+
+</div>
+<div id="wb_Data_scripts" style="position:absolute;left:241px;top:65px;width:180px;height:21px;z-index:5;">
+<div style="color:#FFFFFF;font-size:16px;font-family:Arial;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="basicdate"></div>
+<script>
+   var now = new Date();
+   var days = new Array('Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота');
+   var months = new Array("Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь");
+   var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+   var year = (now.getYear() < 1000) ? now.getYear() + 1900 : now.getYear();
+   today = days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + year;
+   var basicdate = document.getElementById('basicdate');
+   basicdate.innerHTML = today;
+</script>
+
+
+</div>
+<div id="wb_Shape2" style="position:absolute;left:49px;top:232px;width:47px;height:41px;z-index:6;">
+<img src="images/img0002.png" id="Shape2" alt="" style="width:47px;height:41px;"></div>
+<div id="wb_Shape3" style="position:absolute;left:856px;top:42px;width:47px;height:41px;z-index:7;">
+<img src="images/img0003.png" id="Shape3" alt="" style="width:47px;height:41px;"></div>
+<div id="wb_Shape4" style="position:absolute;left:856px;top:333px;width:47px;height:41px;z-index:8;">
+<img src="images/img0004.png" id="Shape4" alt="" style="width:47px;height:41px;"></div>
+<div id="wb_Shape5" style="position:absolute;left:704px;top:631px;width:47px;height:41px;z-index:9;">
+<img src="images/img0005.png" id="Shape5" alt="" style="width:47px;height:41px;"></div>
+<div id="wb_Shape6" style="position:absolute;left:111px;top:584px;width:47px;height:41px;z-index:10;">
+<img src="images/img0006.png" id="Shape6" alt="" style="width:47px;height:41px;"></div>
+<!-- discord -->
+<div id="Discord_Frame" style="position:absolute;left:911px;top:0px;width:216px;height:700px;z-index:11">
+<iframe src="https://ptb.discordapp.com/widget?id=663514742287106068&theme=dark" width="300" height="700" allowtransparency="true" frameborder="0"></iframe></div>
+</div>
+<div style="z-index:12">
+<script>
+var disabled_message = "Ай ай,писька!  Нажал пкм!";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
+</body>
+</html>
